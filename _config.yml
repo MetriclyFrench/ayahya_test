@@ -16,11 +16,13 @@
 title: A Yahya Blog
 email: support@ayahya.me
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome one, welcome all. This is the personal blog of Abdullah Yahya.
+  All posts and site updates are wholly made by and owned by Abdullah Yahya,
+  unless otherwise noted. There is no specified reason for this site. I made it in the hopes that
+  I would use it as a sort of journal or memory palace. Posts will be about things I am currently undertaking or
+  random thoughts. I make this site public in the hopes that it might help others somehow.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://ayahya.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: abdul_jt
 github_username:  MetriclyFrench
 
