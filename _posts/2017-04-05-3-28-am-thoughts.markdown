@@ -2,7 +2,7 @@
 layout: post
 title:  "3:28 am Thoughts"
 date:   2017-04-05 -0700
-categories: blog update
+categories: posts 
 ---
 
 For some reason, I am unable to sleep... Thought doing a bit of work on this site and maybe working on a post will help me get to sleep. Markdown and Liquid are both still unfamiliar to me, so please excuse me for this site's as well as this post's bland look.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Twitter API Project"
 date:   2017-04-06 -0700
-categories: blog update
+categories: posts
 ---
 
 Hi all,

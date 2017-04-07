@@ -6,10 +6,11 @@ description: >
   unless otherwise noted.
 baseurl: "/blog"
 url: "http://ayahya.me"
+home: "../"
 twitter_username: abdul_jt
 github_username:  MetriclyFrench
 
-# Build settings
+# Build Settings
 markdown: kramdown
 theme: minima
 gems:
