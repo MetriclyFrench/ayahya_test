@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -223,3 +224,15 @@ defaults:
       comments: true
       share: true
       related: true
+=======
+---
+title: Ayahya.Me
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+>>>>>>> abdd16329683e7707368c488118d7dddf46bd266
