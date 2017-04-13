@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>/blog/2016/06/pagespeed-100-with-jekyll-s3-and-cloudfront/</loc>
+<lastmod>2016-06-16T09:20:07-07:00</lastmod>
+</url>
+<url>
+<loc>/blog/2017/02/zero-to-http-2-aws-hugo/</loc>
+<lastmod>2017-02-10T00:41:53-08:00</lastmod>
+</url>
+<url>
+<loc>/blog/2017/04/monitor-pwa-website-performance/</loc>
+<lastmod>2017-04-10T06:58:37-07:00</lastmod>
+</url>
+<url>
+<loc>/blog/2017/04/welcome-to-jekyll/</loc>
+<lastmod>2017-04-11T04:28:19-07:00</lastmod>
+</url>
+<url>
+<loc>/blog/</loc>
+</url>
+<url>
+<loc>/</loc>
+</url>
+</urlset>
