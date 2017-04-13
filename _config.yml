@@ -31,7 +31,7 @@ title_separator: "-"
 name: Abdul Yahya
 description: An amazing website.
 url: 
-baseurl: ''
+baseurl: 
 repository: 
 teaser: 
 words_per_minute: 200
