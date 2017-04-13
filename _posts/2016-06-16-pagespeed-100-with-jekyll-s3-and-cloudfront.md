@@ -1,22 +1,23 @@
 ---
 title: PageSpeed 100 with Jekyll, S3 and CloudFront
-author: Josh
-date: 2016-06-16T11:20:07-05:00
-modified: 2016-10-24
-excerpt: Perfect your Google PageSpeed with AWS S3 and CloudFront website hosting.
+date: 2016-06-16 16:20:07 Z
 categories:
-  - tutorials
+- tutorials
 tags:
-  - mobile
-  - performance
-  - jekyll
-  - blog
+- mobile
+- performance
+- jekyll
+- blog
+author: Josh
+modified: 2016-10-24 00:00:00 Z
+excerpt: Perfect your Google PageSpeed with AWS S3 and CloudFront website hosting.
 header:
   overlay_image: images/london-telephone-booth-6618_1024.jpg
   overlay_filter: 0.5
   teaser: images/london-telephone-booth-6618_512.jpg
 featured: true
 ---
+
 {% include toc %}
 
 After moving this website from WordPress to [Jekyll](http://jekyllrb.com/) in 2013 I've [written](/moved-two-sites-to-octopress/) [enthusiastically](/host-images-on-s3-with-octopress/) [about](/turbocharge-your-octopress-blog/) [Jekyll](/simple-websites-jekyll-docker/). But it wasn't until recently that I was able to hit the elusive [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) **score of 100** for both desktop and mobile performance. Here's how I got there using Jekyll with S3 and CloudFront, and how you can too.

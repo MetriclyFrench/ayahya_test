@@ -1,16 +1,16 @@
 ---
-title: "You Can Do Better: Reach For The Stars With SpeedTracker"
-date: 2017-04-10T21:58:37+08:00
-modified: 2017-04-11T13:37:00+08:00
+title: 'You Can Do Better: Reach For The Stars With SpeedTracker'
+date: 2017-04-10 13:58:37 Z
+categories:
+- reference
+tags:
+- lighthouse
+- pwa
+- performance
+- monitoring
+modified: 2017-04-11 05:37:00 Z
 excerpt: Progressive Monitoring for your Progressive Web Apps.
 author: Abdul
-categories:
-  - reference
-tags:
-  - lighthouse
-  - pwa
-  - performance
-  - monitoring
 header:
   overlay_image: images/robert-wiedemann-177442_1280w.jpg
   overlay_filter: 0.5
