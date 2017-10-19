@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+    <head>
+
+        {{ block "site/meta" . }}{{ partial "site/meta.html" . }}{{ end }}
+
+        <link rel="canonical" href="{{ .Permalink }}">
+
+        <title>{{ block "title" . }}
+            {{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}
+        {{ end }}</title>
+
+        {{ if .RSSLink }}
+            <link href="{{ .RSSLink }}" title="{{ .Site.Title }}" type="application/rss+xml" rel="alternate">
+            <link href="{{ .RSSLink }}" title="{{ .Site.Title }}" type="application/rss+xml" rel="feed">
+        {{ end }}
+
+        {{ template "_internal/google_analytics_async.html" . }}
+
+        {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
+
+        {{ block "site/custom-head" .}}{{ partial "site/head-custom.html" . }}{{ end }}
+    </head>
+    <body class="landing-page sidebar-collapse">
+
+        {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
+
+        <div class="wrapper">
+          <main class="site-main" role="main">
+            <div class="page-header page-header-small">
+                <div class="page-header-image" data-parallax="true" style="background-image: url('images/bg6.jpg');">
+                </div>
+                <div class="container">
+                    <div class="content-center">
+                        <h1 class="title">This is our great company.</h1>
+                        <div class="text-center">
+                            <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                            <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              {{ block "main" . }}{{ end }}
+
+          </main>
+        </div>
+
+        {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
+
+        {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
+
+    </body>
+</html>

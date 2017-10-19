@@ -1,0 +1,8 @@
+<!--     Fonts and icons     -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+<!-- CSS Files -->
+<link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}" {{ if not .Site.Params.disable_sri }} integrity="{{ .Site.Data.sri.bootstrapCSS }}" crossorigin="anonymous"{{ end }}>
+<link rel="stylesheet" href="{{ "css/style.css" | absURL }}" {{ if not .Site.Params.disable_sri }} integrity="{{ .Site.Data.sri.styleCSS }}" crossorigin="anonymous"{{ end }}>
+<!-- Custom CSS Overrides-->
+<link rel="stylesheet" href="{{ "css/custom-style.css" | absURL }}" {{ if not .Site.Params.disable_sri }} integrity="{{ .Site.Data.sri.customStyleCSS }}" crossorigin="anonymous"{{ end }}>
